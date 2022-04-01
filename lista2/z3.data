@@ -1,0 +1,30 @@
+data;
+
+param n := 3;
+param m := 3;
+
+param : mp : minP := 
+       1 10 
+       2 20 
+       3 18;
+
+param : mz : minZ := 
+       1 10 
+       2 20 
+       3 13;
+
+
+param minis: 
+    1   2   3 :=
+1   2   4   3
+2   3   6   5
+3   5   7   6;
+
+param maks:
+    1   2   3 :=
+1   3   7   5
+2   5   7   10
+3   8   12  10; 
+
+
+end;
